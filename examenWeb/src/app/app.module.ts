@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { TransferenciaComponent } from './transferencia/transferencia.component';
+import { SearchPipe } from './pipes/search.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TransferenciaComponent } from './transferencia/transferencia.component'
     NavBarComponent,
     PipesComponent,
     ServiciosComponent,
-    TransferenciaComponent
+    TransferenciaComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule
